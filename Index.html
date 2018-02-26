@@ -16,18 +16,35 @@
     </nav>
     
     <div class="form-horizontal" id="nameform">
-      <div class="form-group">
       
-      </div>
       <div class="form-group">
-      
+        <label for="playername" class="col-sm-2 control-label">Player Name</label>
+        <div class="col-sm-2">
+          <input type="text" class="form-control" id="playername" placeholder="Player Name" size="20" />
+        </div>
       </div>
+      
       <div class="form-group">
-      
+        <label for="factor" class="col-sm-2 control-label">Factor</label>
+        <div class="col-sm-2">
+          <input type="text" class="form-control" id="factor" size="20" placeholder="Factor" value="5" />
+        </div>
       </div>
+
       <div class="form-group">
-      
+        <label for="problemCount" class="col-sm-2 control-label">Number of Problems</label>
+        <div class="col-sm-2">
+          <input type="text" class="form-control" id="problemCount" size="20" placeholder="Number of Problems" />
+        </div>
       </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button class="btn btn-primary" id="startGame">Start Game</button>
+          <button class="btn btn-success" id="calculate" disabled>Calculate Score</button>
+        </div>
+      </div>
+
     </div>
     
   </body>
